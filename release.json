@@ -1,0 +1,42 @@
+{
+  "name": "LLM From Scratch",
+  "version": "1.0.0",
+  "release_date": "2026-10-08",
+  "license": "MIT",
+  "runtime": {
+    "python": "3.11–3.13",
+    "numpy": "2.3.5",
+    "device": "CPU",
+    "dtype": "float64"
+  },
+  "implementation": "New standalone NumPy decoder and explicit backward pass, trained from random initialization",
+  "features": [
+    "byte tokenizer",
+    "byte-pair tokenizer",
+    "configurable decoder depth",
+    "manual gradients",
+    "Adam",
+    "KV cache",
+    "checkpoint resume",
+    "evaluation",
+    "generation"
+  ],
+  "book_required": false,
+  "pretrained_weights_included": false,
+  "chapter_map_included": false,
+  "validation": {
+    "status": "passed",
+    "unit_tests": 69,
+    "numerical_checks": 8,
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "platform": "macOS-26.5.2-arm64-arm-64bit",
+    "hosted_ci_executed": false
+  },
+  "data_sha256": {
+    "train.txt": "dd99b60b053a560d2dbdb34f5caa09a8549869d0bf7b6ec719f11247630c7bfb",
+    "validation.txt": "cca111f3edda81629538e7095751e8487b45469d655c81cd1f1a8e89819b6089"
+  },
+  "integrity_manifest": "SHA256SUMS",
+  "manifest_signed": false
+}

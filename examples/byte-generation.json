@@ -1,0 +1,17 @@
+{
+  "text": "The policy re re r",
+  "generated_token_ids": [
+    32,
+    114,
+    101,
+    32,
+    114,
+    101,
+    32,
+    114
+  ],
+  "prompt_tokens": 10,
+  "output_tokens": 8,
+  "tokenizer": "byte",
+  "interpretation": "Small-model continuation; not evidence of factual correctness or instruction-following capability."
+}

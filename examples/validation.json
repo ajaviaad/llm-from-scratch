@@ -1,0 +1,72 @@
+{
+  "status": "passed",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "steps": [
+    {
+      "name": "unit_tests",
+      "exit_code": 0
+    },
+    {
+      "name": "numerics",
+      "exit_code": 0
+    },
+    {
+      "name": "byte_training",
+      "exit_code": 0
+    },
+    {
+      "name": "byte_generation",
+      "exit_code": 0
+    },
+    {
+      "name": "byte_evaluation",
+      "exit_code": 0
+    },
+    {
+      "name": "byte_resume",
+      "exit_code": 0
+    },
+    {
+      "name": "bpe_training",
+      "exit_code": 0
+    },
+    {
+      "name": "bpe_generation",
+      "exit_code": 0
+    },
+    {
+      "name": "bpe_evaluation",
+      "exit_code": 0
+    },
+    {
+      "name": "bpe_resume",
+      "exit_code": 0
+    }
+  ],
+  "scope": "CPU correctness, tiny-corpus training, checkpoint and command integration; no large-model capability claim.",
+  "unit_tests": 69,
+  "numerical_checks": 8,
+  "byte": {
+    "parameters": 13904,
+    "initial_validation_nll": 5.582048460155111,
+    "final_validation_nll": 2.728613759778228,
+    "generation_tokens": 8,
+    "resume_step": 125
+  },
+  "bpe": {
+    "parameters": 15312,
+    "initial_validation_nll": 5.782680696387578,
+    "final_validation_nll": 3.8815011062222817,
+    "generation_tokens": 8,
+    "resume_step": 125
+  },
+  "source_sha256": {
+    "llm_lab/__init__.py": "cd7dd4966886719deca0b331d6b18c1731cdbf9afb4fecc1715c7d9168b52c2d",
+    "llm_lab/__main__.py": "3062a00e26397e1520336bbd72cbf85aa6a0ee52462eba2048de9233d1846cf9",
+    "llm_lab/model.py": "ba7226664116131ffdf72c236a166aeada66263d3b14f4926af02d008e267b22",
+    "llm_lab/numerics.py": "0b123882a255ed8a832c3e63ca690c32f53bde0a234310da91c55ed050efaee9",
+    "llm_lab/tokenization.py": "1bf362d97298e7282c66c95ca410b00456bd8e16823332facf65443afde5c41e"
+  }
+}

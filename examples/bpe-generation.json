@@ -1,0 +1,17 @@
+{
+  "text": "The policy is a rest is a",
+  "generated_token_ids": [
+    32,
+    105,
+    289,
+    269,
+    115,
+    262,
+    105,
+    289
+  ],
+  "prompt_tokens": 5,
+  "output_tokens": 8,
+  "tokenizer": "bpe",
+  "interpretation": "Small-model continuation; not evidence of factual correctness or instruction-following capability."
+}

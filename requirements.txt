@@ -1,0 +1,2 @@
+# Tested CPU reference environment; no model downloads or service SDKs.
+numpy==2.3.5

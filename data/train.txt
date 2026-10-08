@@ -1,0 +1,7 @@
+The support policy requires a current order record. The assistant reads authorized evidence before proposing an action. A proposal is not permission. The broker checks the owner, the amount, the policy version, and the approval before recording a receipt.
+
+A cache stores keys and values for one request. Causal attention reads only the current and earlier positions. A canceled request releases its reservation. Model weights, tokenization, and position settings belong to one compatible release.
+
+A training example pairs a prefix with the next byte. The training split changes parameters. Validation checks unseen documents. Calibration and testing have separate jobs. Small synthetic examples make numerical mistakes easier to inspect.
+
+A retrieval result carries its source and version. Stale evidence is rejected. A tenant boundary is applied before ranking. An empty authorized result is a reason to abstain. A citation identifies evidence but does not grant authority to execute a tool.

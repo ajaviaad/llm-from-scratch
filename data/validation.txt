@@ -1,0 +1,3 @@
+An authorized support request uses a current policy and an owned order. The system checks a proposed action independently. It records the outcome and a receipt. If a response times out after a commit, the broker reconciles the receipt before retrying the effect.
+
+The decoder predicts the next byte from the available prefix. A causal mask prevents future positions from changing earlier outputs. A complete checkpoint saves weights, optimizer moments, random state, and training progress. A small loss is not proof of useful language quality.
