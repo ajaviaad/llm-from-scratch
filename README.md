@@ -20,11 +20,8 @@ The included text is original synthetic teaching data.
 
 ### 1. Clone the repository
 
-Copy this repository's HTTPS or SSH clone URL from its **Code** menu. Replace
-`REPOSITORY_URL` below with that URL:
-
 ```sh
-git clone REPOSITORY_URL llm-from-scratch
+git clone (https://github.com/ajaviaad/llm-from-scratch.git)
 cd llm-from-scratch
 ```
 
