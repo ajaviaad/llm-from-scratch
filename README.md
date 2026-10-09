@@ -21,7 +21,7 @@ The included text is original synthetic teaching data.
 ### 1. Clone the repository
 
 ```sh
-git clone (https://github.com/ajaviaad/llm-from-scratch.git)
+git clone https://github.com/ajaviaad/llm-from-scratch.git
 cd llm-from-scratch
 ```
 
